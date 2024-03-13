@@ -1,0 +1,40 @@
+*{
+    margin-inline-start: auto;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+    
+
+body{
+    background: rgba(0, 0, 0, 0.5) url('IMG_6175 (2).png') center center fixed;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+ 
+}
+
+search input{
+    background: transparent;
+    width: 700px;
+    border: 0;
+outline: none;
+
+}
+
+button{
+    padding: 10px 30px;
+    margin-left: 48px;
+    background-color: mediumaquamarine;
+    cursor: pointer;
+    border: 0;
+}
+search{
+    background: khaki;
+    font-size: 80px;
+    width: fit-content;
+    margin: 20px 0;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+}
